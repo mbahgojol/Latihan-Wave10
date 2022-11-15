@@ -7,7 +7,7 @@ import android.util.Log
 import com.example.suitsuit.databinding.ActivityMenuBinding
 import com.example.suitsuit.fragment.LandingPage3Fragment
 import com.google.android.material.snackbar.Snackbar
-
+//abd
 class MenuActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMenuBinding
