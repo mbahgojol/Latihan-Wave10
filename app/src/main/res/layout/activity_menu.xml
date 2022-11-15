@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.MenuActivity">
+
+    <TextView
+        style="@style/ukuran_text_menu_judul"
+        android:text="@string/pilih_lawanmu"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/ivPvp"
+        style="@style/ukuran_gambar_menu"
+        android:src="@drawable/ic_landing_page1"
+        android:contentDescription="@string/lawan_player"
+        />
+
+    <TextView
+        android:id="@+id/tvPvp"
+        style="@style/ukuran_text_menu"
+        android:text="@string/pilih_lawanmu"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:id="@+id/ivPvc"
+        style="@style/ukuran_gambar_menu"
+        android:contentDescription="@string/lawan_cpu"
+        android:src="@drawable/ic_landing_page2"/>
+
+    <TextView
+        android:id="@+id/tvPvc"
+        style="@style/ukuran_text_menu"
+        android:text="@string/pilih_lawanmu" />
+
+</LinearLayout>

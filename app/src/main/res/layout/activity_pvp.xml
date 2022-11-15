@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PvpActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:contentDescription="@string/batu"
+        android:src="@drawable/ic_batu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPemain" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/kertas"
+        android:src="@drawable/ic_kertas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv1" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/gunting"
+        android:src="@drawable/ic_gunting"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv2" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/batu"
+        android:src="@drawable/ic_batu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCom" />
+
+    <ImageView
+        android:id="@+id/iv5"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/kertas"
+        android:src="@drawable/ic_kertas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv4" />
+
+    <ImageView
+        android:id="@+id/iv6"
+        style="@style/ukuran_tangan_game"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/gunting"
+        android:src="@drawable/ic_gunting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv5" />
+
+    <ImageView
+        android:id="@+id/iv7"
+        style="@style/ukuran_refresh"
+        android:contentDescription="@string/reset"
+        android:src="@drawable/ic_refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv8"
+        style="@style/ukuran_refresh"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_close"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivJudulGame"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/judul_game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:padding="8dp"
+        android:rotation="-12"
+        android:text="@string/vs"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="100sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivJudulGame" />
+
+    <TextView
+        android:id="@+id/tvCom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="@string/pemain_2"
+        android:textColor="@color/deep_blu"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/comic_neue_bold"
+        android:text="@string/pemain_1"
+        android:textColor="@color/deep_blu"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

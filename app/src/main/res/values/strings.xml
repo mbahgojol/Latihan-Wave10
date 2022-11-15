@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Suit Suit</string>
+    <string name="kertas">Kertas</string>
+    <string name="gunting">Gunting</string>
+    <string name="batu">Batu</string>
+    <string name="pemain_1">Pemain 1</string>
+    <string name="com">CPU</string>
+    <string name="vs">VS</string>
+    <string name="reset">reset</string>
+    <string name="judul_splash_screen">judul splash screen</string>
+    <string name="sesama_pemain">sesama pemain</string>
+    <string name="bermain_suit_melawan">Bermain suit melawan</string>
+    <string name="komputer">komputer</string>
+    <string name="tuliskan_namamu_di_bawah">Tuliskan namamu di bawah</string>
+    <string name="icon_landing_page_1">icon landing page 1</string>
+    <string name="gambar_landing_page_2">Gambar landing page 2</string>
+    <string name="gambar_landing_page_3">Gambar landing page 3</string>
+    <string name="masukkan_nama_anda">Masukkan namamu untuk melanjutkan</string>
+    <string name="pilih_lawanmu">PILIH LAWANMU</string>
+    <string name="lawan_player">Lawan Player</string>
+    <string name="lawan_cpu">Lawan CPU</string>
+    <string name="back">back</string>
+    <string name="judul_game">judul game</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="pemain_2">Pemain 2</string>
+</resources>
