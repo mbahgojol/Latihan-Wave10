@@ -16,6 +16,13 @@
         android:theme="@style/Theme.SuitSuit"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".LupaPasswordActivity"
             android:exported="false">
             <meta-data
@@ -25,6 +32,7 @@
         <activity
             android:name=".ui.PvpActivity"
             android:exported="false">
+
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
